@@ -18,4 +18,6 @@ without prior permission from the copyright holder.
 
 ## Read The Build Guide
 
+I'm still working on it, it'll be ready soon!
+
 You can find the build guide [here](./docs/build_guide.md)

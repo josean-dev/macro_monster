@@ -92,6 +92,6 @@ Drag the firmware file to the mounted rp2040 zero.
 
 You can navigate to [vial.rocks](https://vial.rocks) to modify the keymaps and macros on the default firmware.
 
-## Case assembly
+## Case printing and Assembly
 
 Add m2 screws to the bottom of the case.

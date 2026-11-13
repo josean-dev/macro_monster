@@ -1,11 +1,11 @@
 ## Ordering PCB For Production
 
-First download the files located in [pcb_production_files](./pcb_production_files).
+First download the files located in [pcb_production_files](../pcb_production_files).
 
 Navigate to the JLCPCB ordering page [here](https://jlcpcb.com?from=JoseanMartinez).
 Then click on "Get Instant Quote".
 
-![Click Add Gerber](./build_guide_images/click_add_gerber_file.jpg)
+![Click Add Gerber](./images/click_add_gerber_file.jpg)
 
 Now you can click on "Add Gerber File" and then upload the `Macropad.zip` file.
 
@@ -38,7 +38,7 @@ Now you can finalize your order. In "Product Description", I select "Researc/Edu
 
 Solder each socket in this orientation:
 
-![Hotswap Sockets](./build_guide_images/hotswap_sockets.jpg)
+![Hotswap Sockets](./images/hotswap_sockets.jpg)
 
 I like adding solder to one pad first, then melting it and placing the socket with tweezers into place. I do this
 for all of them and then solder the other pad for each socket.
@@ -56,39 +56,39 @@ Use flux here. Dragging your iron with a little bit of solder makes this easier.
 
 First solder the header pins for the microcontroller. Use tap to secure each piece into place before soldering.
 
-![Header pins with tape](./build_guide_images/tape_headers.jpg)
+![Header pins with tape](./images/tape_headers.jpg)
 
-![Underside header pins soldering](./build_guide_images/solder_header_pins_on_bottom.jpg)
+![Underside header pins soldering](./images/solder_header_pins_on_bottom.jpg)
 
 Final result:
 
-![Headers installed](./build_guide_images/headers_are_installed.jpg)
+![Headers installed](./images/headers_are_installed.jpg)
 
 Now place the microcontroller with the buttons facing up to solder it into place.
 
-![Solder microcontroller](./build_guide_images/solder_microcontroller.jpg)
+![Solder microcontroller](./images/solder_microcontroller.jpg)
 
 ### Solder Rotary Encoders
 
 Tape the rotary encoder into place first before soldering.
 
-![Rotary encoder taped](./build_guide_images/tape_rotary_encoders.jpg)
-![Rotary encoder underside soldering](./build_guide_images/solder_rotary_encoders.jpg)
-![Rotary encoders installed](./build_guide_images/both_rotary_encoders_soldered.jpg)
+![Rotary encoder taped](./images/tape_rotary_encoders.jpg)
+![Rotary encoder underside soldering](./images/solder_rotary_encoders.jpg)
+![Rotary encoders installed](./images/both_rotary_encoders_soldered.jpg)
 
 ## Flashing
 
 Connect microcontroller to computer while holding down the "BOOT" button.
 
-![Connect microcontroller](./build_guide_images/hold_down_boot_while_connecting_microcontroller.jpg)
+![Connect microcontroller](./images/hold_down_boot_while_connecting_microcontroller.jpg)
 
 Mount the microcontroller with your file explorer.
 
-![Mount](./build_guide_images/mount_rp2040_zero.jpg)
+![Mount](./images/mount_rp2040_zero.jpg)
 
 Drag the firmware file to the mounted rp2040 zero.
 
-![Drag firmware file](./build_guide_images/drag_vial.uf2_onto_it.jpg)
+![Drag firmware file](./images/drag_vial.uf2_onto_it.jpg)
 
 You can navigate to [vial.rocks](https://vial.rocks) to modify the keymaps and macros on the default firmware.
 
